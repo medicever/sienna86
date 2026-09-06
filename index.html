@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sienna Residence, Warsaw — Private Office For Sale</title>
+<meta name="description" content="103.4 m² fully fitted, furnished private office at Sienna Residence, central Warsaw. Private underground parking. Private sale — USD 950,000.">
+<style>
+
+@font-face{
+  font-family:"Pagella"; src:url("assets/fonts/texgyrepagella-regular.woff2") format("woff2");
+  font-weight:400; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Pagella"; src:url("assets/fonts/texgyrepagella-bold.woff2") format("woff2");
+  font-weight:700; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Pagella"; src:url("assets/fonts/texgyrepagella-italic.woff2") format("woff2");
+  font-weight:400; font-style:italic; font-display:swap;
+}
+@font-face{
+  font-family:"Heros"; src:url("assets/fonts/texgyreheros-regular.woff2") format("woff2");
+  font-weight:400; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"Heros"; src:url("assets/fonts/texgyreheros-bold.woff2") format("woff2");
+  font-weight:700; font-style:normal; font-display:swap;
+}
+
+:root{
+  --ink:#221F1B;
+  --ink-soft:#4A453E;
+  --muted:#8B8378;
+  --ivory:#F4F1EA;
+  --paper:#FBFAF6;
+  --bronze:#A5834E;
+  --bronze-soft:#C3A87A;
+  --line:#D8D2C6;
+}
+
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Pagella", Georgia, serif;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+
+.wrap{ max-width:1120px; margin:0 auto; padding:0 6vw; }
+
+/* ---------- top mark ---------- */
+.mark{
+  padding:28px 0 0;
+  display:flex; align-items:baseline; gap:14px;
+}
+.mark .name{ font-size:15px; letter-spacing:.14em; }
+.mark .place{
+  font-family:"Heros",sans-serif; font-size:11px; letter-spacing:.22em;
+  color:var(--bronze); text-transform:uppercase;
+}
+
+/* ---------- hero ---------- */
+.hero{
+  display:grid; grid-template-columns:minmax(0,380px) 1fr;
+  gap:56px; align-items:center;
+  padding:44px 0 64px;
+}
+.hero-video{
+  position:relative; width:100%; border-radius:2px; overflow:hidden;
+  box-shadow:0 30px 60px -25px rgba(34,31,27,.35);
+  background:var(--ink);
+}
+.hero-video video{ display:block; width:100%; height:auto; }
+
+.kicker{
+  font-family:"Heros",sans-serif; font-size:11px; letter-spacing:.24em;
+  color:var(--bronze); text-transform:uppercase; margin:0 0 18px;
+}
+.hero h1{
+  font-weight:400; font-size:clamp(34px,4.6vw,54px); line-height:1.06;
+  margin:0 0 6px; letter-spacing:.002em;
+}
+.hero .sub{
+  font-size:clamp(17px,1.7vw,20px); color:var(--ink-soft); margin:0 0 26px;
+}
+.price-row{
+  display:flex; align-items:baseline; gap:16px; flex-wrap:wrap;
+  padding:20px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+  margin-bottom:30px;
+}
+.price{ font-size:clamp(30px,3.4vw,42px); color:var(--bronze); }
+.price-note{
+  font-family:"Heros",sans-serif; font-size:11px; letter-spacing:.16em;
+  color:var(--muted); text-transform:uppercase;
+}
+.cta-row{ display:flex; gap:16px; flex-wrap:wrap; }
+.btn{
+  font-family:"Heros",sans-serif; font-size:13px; letter-spacing:.08em;
+  text-decoration:none; padding:15px 30px; border-radius:1px;
+  display:inline-block; transition:opacity .15s ease;
+}
+.btn:hover{ opacity:.82; }
+.btn-primary{ background:var(--ink); color:var(--ivory); }
+.btn-secondary{ background:transparent; color:var(--ink); border:1px solid var(--ink); }
+
+/* ---------- facts + description ---------- */
+.section{ padding:58px 0; border-top:1px solid var(--line); }
+.two-col{ display:grid; grid-template-columns:1.15fr .85fr; gap:70px; }
+
+.section h2{ font-weight:400; font-size:26px; margin:0 0 20px; }
+.section p{ color:var(--ink-soft); font-size:16.5px; max-width:60ch; }
+.section p + p{ margin-top:14px; }
+
+.facts{ list-style:none; margin:0; padding:0; }
+.facts li{
+  display:flex; justify-content:space-between; gap:20px;
+  padding:15px 0; border-bottom:1px solid var(--line);
+}
+.facts li:first-child{ border-top:1px solid var(--line); }
+.facts .k{
+  font-family:"Heros",sans-serif; font-size:11px; letter-spacing:.16em;
+  color:var(--muted); text-transform:uppercase; padding-top:2px;
+}
+.facts .v{ font-size:16.5px; text-align:right; }
+
+/* ---------- contact ---------- */
+.contact{ background:var(--ink); color:var(--ivory); padding:70px 0; }
+.contact .wrap{ display:grid; grid-template-columns:1fr auto; gap:40px; align-items:end; }
+.contact h2{ font-weight:400; font-size:28px; margin:0 0 10px; color:#fff; }
+.contact p{ color:#C9C2B4; margin:0; font-size:15.5px; }
+.contact a{ color:#fff; text-decoration:none; border-bottom:1px solid var(--bronze-soft); }
+.contact a:hover{ color:var(--bronze-soft); }
+.terms{ text-align:right; }
+.terms .k{
+  font-family:"Heros",sans-serif; font-size:11px; letter-spacing:.16em;
+  color:var(--bronze-soft); text-transform:uppercase; margin-bottom:8px;
+}
+.terms .v{ font-size:17px; }
+
+/* ---------- footer ---------- */
+footer{ padding:28px 0 40px; }
+footer p{
+  font-size:12px; line-height:1.6; color:var(--muted); max-width:90ch; margin:0;
+}
+
+@media (max-width:860px){
+  .hero{ grid-template-columns:1fr; gap:32px; padding-top:24px; }
+  .hero-video{ max-width:320px; margin:0 auto; }
+  .two-col{ grid-template-columns:1fr; gap:36px; }
+  .contact .wrap{ grid-template-columns:1fr; }
+  .terms{ text-align:left; }
+}
+</style>
+</head>
+<body>
+
+<div class="wrap mark">
+  <span class="name">Sienna Residence</span>
+  <span class="place">Warsaw</span>
+</div>
+
+<section class="wrap hero">
+  <div class="hero-video">
+    <video src="assets/sienna-reel.mp4" poster="assets/poster.jpg" autoplay muted loop playsinline controls></video>
+  </div>
+  <div>
+    <p class="kicker">Private office &middot; For sale</p>
+    <h1>In the heart<br>of Europe.</h1>
+    <p class="sub">A fully fitted, furnished private office in central Warsaw &mdash; ready for immediate use.</p>
+    <div class="price-row">
+      <span class="price">USD 950,000</span>
+      <span class="price-note">Private sale</span>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="assets/Sienna-86-Warsaw-Brochure.pdf" target="_blank" rel="noopener">View full presentation</a>
+      <a class="btn btn-secondary" href="mailto:contact@arinage.com">Enquire by email</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <h2>A rare opportunity in central Warsaw</h2>
+      <p>Sienna Residence holds a residential title, but it has never been lived in as an apartment. It was designed, fitted and used as a professional office &mdash; and it is offered exactly as it stands, ready for a new owner to move in without delay.</p>
+      <p>The layout includes a private executive office, a conference room seating up to ten, an open workspace, and additional office space &mdash; alongside a private underground parking space in the same building. The property is offered fully furnished, with the existing furniture and equipment included in the sale.</p>
+      <p>Located within walking distance of Rondo ONZ, Warsaw Spire, Browary Warszawskie and Fabryka Norblina, in one of Warsaw's most dynamic business districts.</p>
+    </div>
+    <ul class="facts">
+      <li><span class="k">Internal area</span><span class="v">103.4 m²</span></li>
+      <li><span class="k">Floor</span><span class="v">4th, garden facing</span></li>
+      <li><span class="k">Parking</span><span class="v">Private, No. 1</span></li>
+      <li><span class="k">Condition</span><span class="v">Fully fitted &amp; furnished</span></li>
+      <li><span class="k">Access</span><span class="v">24/7 reception, controlled</span></li>
+      <li><span class="k">Title</span><span class="v">Residential</span></li>
+      <li><span class="k">Location</span><span class="v">Central Warsaw, EU</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="wrap">
+    <div>
+      <h2>Private sale &middot; Viewings by appointment</h2>
+      <p>Full presentation, floor plan and further details available on request.<br>
+      <a href="mailto:contact@arinage.com">contact@arinage.com</a></p>
+    </div>
+    <div class="terms">
+      <div class="k">Asking price</div>
+      <div class="v">USD 950,000</div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <p>These particulars are provided as a general guide only and do not form part of any offer or contract. Areas and measurements are taken from the surveyed floor plan and are approximate. The property is offered fully furnished; a detailed inventory of the furniture and equipment included in the sale will be confirmed with the purchaser. Prospective purchasers should satisfy themselves as to the condition of the property through their own inspection and professional advisers.</p>
+</footer>
+
+</body>
+</html>
